@@ -1,0 +1,369 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+body {
+background:#FFFFFF !important;
+    font-family: 'Roboto', sans-serif!important;
+}
+a {
+    color: #2a2d31 !important;
+    text-decoration: none;
+}
+a.hover {
+    color: #54aacb !important;
+    text-decoration: none;
+}
+.clearit {
+    display: none !important;
+}
+.create-button, .input-button {
+background-color: #1e87f0!important;
+background-image: none !important;
+    border: 1px solid transparent!important;
+    color: #fff!important;
+}
+#tutorial_show {
+background: #1e87f0 url("https://cpanel.labdz.tk/panel/images/tut_icon.gif") no-repeat scroll 6px 50%!important;
+background-image: none !important;
+    border: 1px solid transparent!important;
+color: #fff!important;
+}
+
+.cellheading, h3, h6, #notices h6, #quota-warnings h6, #content-stats h6 {
+background: #f7f7f7 linear-gradient(to bottom, #f9f9f9, #f0f0f0) repeat scroll 0 0!important;
+    color: #515456;
+    font-family: "Roboto",sans-serif;
+    height: 20px;
+    padding: 5px 0 0;
+}
+#heading-top-billboard {
+    height: 70px !important;
+}
+#logo {
+    display: none !important;
+}
+#heading-home_off {
+    background: rgba(0, 0, 0, 0) url("http://cpanel.labdz.tk/images/vplogo.png") no-repeat scroll 0 0 / 170px auto;
+    height: 40px !important;
+    margin-left: 5px;
+    position: absolute !important;
+    width: 220px !important;
+}
+#heading-home_on {
+background: rgba(0, 0, 0, 0) url("http://cpanel.labdz.tk/images/vplogo.png") no-repeat scroll 0 0 / 170px auto;
+height: 40px !important;
+margin-left: 5px;
+position: absolute !important;
+width: 220px !important;
+}
+#heading-help_off {
+background: rgba(255,255,255,.05) url("https://raw.githubusercontent.com/labdz/UIpanel/master/images/help.png") no-repeat 10px 8px;
+background-size: 15px;
+border-left: 1px solid rgba(255,255,255,.05);
+}
+#heading-help_on {
+background: rgba(255,255,255,.08) url("https://raw.githubusercontent.com/labdz/UIpanel/master/images/help.png") no-repeat 10px 8px;
+background-size: 15px;
+border-left: 1px solid rgba(255,255,255,.05);
+}
+#heading-logout_off {
+background: rgba(255,255,255,.05) url("https://raw.githubusercontent.com/labdz/UIpanel/master/images/logout.png") no-repeat 10px 8px;
+background-size: 15px;
+border-left: 1px solid rgba(255,255,255,.05);
+}
+#heading-logout_on {
+background: rgba(255,255,255,.08) url("https://raw.githubusercontent.com/labdz/UIpanel/master/images/logout.png") no-repeat 10px 8px;
+background-size: 15px;
+border-left: 1px solid rgba(255,255,255,.05);
+}
+#register {
+    display: none !important;
+}
+#cpanel {
+background:transparent !important;
+    border: medium none !important;
+    border-radius: 0 0 5px 5px;
+    padding: 0 !important;
+    width: 100% !important;
+    }
+#cpanel #border-efx {
+    border: medium none !important;
+    margin: 0;
+    padding: 0;
+}
+#cpanel #border-efx #content {
+    border: none !important;
+}
+#cpanel #border-efx #content #sub {
+    width: 17% !important;
+}
+#cpanel #border-efx #content #main {
+    width: 80% !important;
+}
+.cellbox {
+background: #FFFFFF none repeat scroll 0 0;
+    border: #e5e5e5 -moz-use-text-color -moz-use-text-color;
+    border-radius: 0 0 3px 3px;
+}
+div.stats_progress_bar {
+    -moz-appearance: none;
+background-color: #f8f8f8;
+    border: 0 none!important;
+    border-radius: 500px;
+    display: block;
+    height: 15px!important;
+    overflow: hidden;
+    width: 100%!important;
+}
+.spriteheading_bg {
+    position: relative;
+    display: block;
+background: #333442 !important;
+    height: 40px !important;
+}
+.spriteheading_compleximg {
+background: #fafafa none repeat scroll 0 0 !important;
+}
+#cpanel #border-efx #heading-top-header-bg #heading-top-billboard #logo {
+    left: 0 !important;
+    position: static !important;
+    top: 0 !important;
+}
+.regform {
+    float: right !important;
+    height: 80px;
+    position: relative;
+    text-align: left;
+    top: 5px;
+    width: 380px;
+}
+#heading-top-billboard {
+background: transparent none repeat scroll 0 0 !important;
+}
+.clearitmed {
+    height: 0 !important;
+    line-height: 0 !important;
+    border: none !important;
+}
+.toplogo {
+    height: 45px;
+    width: 150px;
+}
+.icon_wrap {
+    display: inline-block;
+    margin: 0 auto !important;
+}
+.icon_wrap img {
+background-color: #EBEFF2;
+    border-radius: 50%;
+    padding: 5px;
+}
+#icon-password {
+background: #ebeff2 url("https://raw.githubusercontent.com/labdz/UIpanel/master/images/Password.png") no-repeat scroll 6px 6px / 32px auto;
+border-radius: 50%;
+height: 35px;margin: 0;
+padding: 5px;
+width: 35px;}
+#icon-updatecontact {
+background: #ebeff2 url("https://raw.githubusercontent.com/labdz/UIpanel/master/images/Contact.png") no-repeat scroll 6px 6px / 32px auto;
+border-radius: 50%;
+height: 35px;margin: 0;
+padding: 5px;
+width: 35px;}
+#icon-changelang {
+background: #ebeff2 url("https://raw.githubusercontent.com/labdz/UIpanel/master/images/Lang.png") no-repeat scroll 6px 6px / 32px auto;
+border-radius: 50%;
+height: 35px;margin: 0;
+padding: 5px;
+width: 35px;}
+#icon-favorites {
+background: #ebeff2 url("https://raw.githubusercontent.com/labdz/UIpanel/master/images/favorites.png") no-repeat scroll 6px 6px / 32px auto;
+border-radius: 50%;
+height: 35px;margin: 0;
+padding: 5px;
+width: 35px;}
+#icon-subdomains{
+background: #ebeff2 url("https://raw.githubusercontent.com/labdz/UIpanel/master/images/subdomains.png") no-repeat scroll 6px 6px / 32px auto;
+border-radius: 50%;
+height: 35px;margin: 0;
+padding: 5px;
+width: 35px;}
+#icon-addondomain{
+background: #ebeff2 url("https://raw.githubusercontent.com/labdz/UIpanel/master/images/addondomain.png") no-repeat scroll 6px 6px / 32px auto;
+border-radius: 50%;
+height: 35px;margin: 0;
+padding: 5px;
+width: 35px;}
+#icon-parkeddomains{
+background: #ebeff2 url("https://raw.githubusercontent.com/labdz/UIpanel/master/images/parkeddomains.png") no-repeat scroll 6px 6px / 32px auto;
+border-radius: 50%;
+height: 35px;margin: 0;
+padding: 5px;
+width: 35px;}
+#icon-redirects{
+background: #ebeff2 url("https://raw.githubusercontent.com/labdz/UIpanel/master/images/redirects.png") no-repeat scroll 6px 6px / 32px auto;
+border-radius: 50%;
+height: 35px;margin: 0;
+padding: 5px;
+width: 35px;}
+#icon-simplezoneedit{
+background: #ebeff2 url("https://raw.githubusercontent.com/labdz/UIpanel/master/images/simplezoneedit.png") no-repeat scroll 6px 6px / 32px auto;
+border-radius: 50%;
+height: 35px;margin: 0;
+padding: 5px;
+width: 35px;}
+#icon-emailmx {
+background: #ebeff2 url("https://raw.githubusercontent.com/labdz/UIpanel/master/images/emailmx.png") no-repeat scroll 6px 6px / 32px auto;
+border-radius: 50%;
+height: 35px;margin: 0;
+padding: 5px;
+width: 35px;}
+#icon-manageaccounts{
+background: #ebeff2 url("https://raw.githubusercontent.com/labdz/UIpanel/master/images/manageaccounts.png") no-repeat scroll 6px 6px / 32px auto;
+border-radius: 50%;
+height: 35px;margin: 0;
+padding: 5px;
+width: 35px;}
+#icon-forwardersemail {
+background: #ebeff2 url("https://raw.githubusercontent.com/labdz/UIpanel/master/images/forwardersemail.png") no-repeat scroll 6px 6px / 32px auto;
+border-radius: 50%;
+height: 35px;margin: 0;
+padding: 5px;
+width: 35px;}
+#icon-webemail {
+background: #ebeff2 url("https://raw.githubusercontent.com/labdz/UIpanel/master/images/webemail.png") no-repeat scroll 6px 6px / 32px auto;
+border-radius: 50%;
+height: 35px;margin: 0;
+padding: 5px;
+width: 35px;}
+#icon-mysql {
+background: #ebeff2 url("https://raw.githubusercontent.com/labdz/UIpanel/master/images/mysql.png") no-repeat scroll 6px 6px / 32px auto;
+border-radius: 50%;
+height: 35px;margin: 0;
+padding: 5px;
+width: 35px;}
+#icon-phpMyAdmin {
+background: #ebeff2 url("https://raw.githubusercontent.com/labdz/UIpanel/master/images/phpMyAdmin.png") no-repeat scroll 6px 6px / 32px auto;
+border-radius: 50%;
+height: 35px;margin: 0;
+padding: 5px;
+width: 35px;}
+#icon-mysql-remoteaccess {
+background: #ebeff2 url("https://raw.githubusercontent.com/labdz/UIpanel/master/images/Mysql-remote.png") no-repeat scroll 6px 6px / 32px auto;
+border-radius: 50%;
+height: 35px;margin: 0;
+padding: 5px;
+width: 35px;}
+#icon-errorlogs {
+background: #ebeff2 url("https://raw.githubusercontent.com/labdz/UIpanel/master/images/errorlogs.png") no-repeat scroll 6px 6px / 32px auto;
+border-radius: 50%;
+height: 35px;margin: 0;
+padding: 5px;
+width: 35px;}
+#icon-rawaccesslogs {
+background: #ebeff2 url("https://raw.githubusercontent.com/labdz/UIpanel/master/images/rawaccesslogs.png") no-repeat scroll 6px 6px / 32px auto;
+border-radius: 50%;
+height: 35px;margin: 0;
+padding: 5px;
+width: 35px;}
+#icon-hd {
+background: #ebeff2 url("https://raw.githubusercontent.com/labdz/UIpanel/master/images/icon-hd.png") no-repeat scroll 6px 6px / 32px auto;
+border-radius: 50%;
+height: 35px;margin: 0;
+padding: 5px;
+width: 35px;}
+#icon-filemanager {
+background: #ebeff2 url("https://raw.githubusercontent.com/labdz/UIpanel/master/images/filemanager.png") no-repeat scroll 6px 6px / 32px auto;
+border-radius: 50%;
+height: 35px;margin: 0;
+padding: 5px;
+width: 35px;}
+#icon-hdspace {
+background: #ebeff2 url("https://raw.githubusercontent.com/labdz/UIpanel/master/images/hdspace.png") no-repeat scroll 6px 6px / 32px auto;
+border-radius: 50%;
+height: 35px;margin: 0;
+padding: 5px;
+width: 35px;}
+#icon-ftpaccounts {
+background: #ebeff2 url("https://raw.githubusercontent.com/labdz/UIpanel/master/images/ftpaccounts.png") no-repeat scroll 6px 6px / 32px auto;
+border-radius: 50%;
+height: 35px;margin: 0;
+padding: 5px;
+width: 35px;}
+#icon-anonymousmsg {
+background: #ebeff2 url("https://raw.githubusercontent.com/labdz/UIpanel/master/images/anonymousmsg.png") no-repeat scroll 6px 6px / 32px auto;
+border-radius: 50%;
+height: 35px;margin: 0;
+padding: 5px;
+width: 35px;}
+#icon-ssl-manager {
+background: #ebeff2 url("https://raw.githubusercontent.com/labdz/UIpanel/master/images/ssl.png") no-repeat scroll 6px 6px / 32px auto;
+border-radius: 50%;
+height: 35px;margin: 0;
+padding: 5px;
+width: 35px;}
+#icon-php {
+background:#ebeff2 url("https://raw.githubusercontent.com/labdz/UIpanel/master/images/php.png") no-repeat scroll 5px 5px / 32px auto;
+border-radius: 50%;
+height: 35px;margin: 0;
+padding: 5px;
+width: 35px;}
+#icon-cron {
+background: #ebeff2 url("https://raw.githubusercontent.com/labdz/UIpanel/master/images/cron.png") no-repeat scroll 6px 6px / 32px auto;
+border-radius: 50%;
+height: 35px;margin: 0;
+padding: 5px;
+width: 35px;}
+#icon-ipdeny {
+background: #ebeff2 url("https://raw.githubusercontent.com/labdz/UIpanel/master/images/ipdeny.png") no-repeat scroll 6px 6px / 32px auto;
+border-radius: 50%;
+height: 35px;margin: 0;
+padding: 5px;
+width: 35px;}
+#icon-errorpage {
+background: #ebeff2 url("https://raw.githubusercontent.com/labdz/UIpanel/master/images/errorpage.png") no-repeat scroll 6px 6px / 32px auto;
+border-radius: 50%;
+height: 35px;margin: 0;
+padding: 5px;
+width: 35px;}
+#icon-password-protect {
+background: #ebeff2 url("https://raw.githubusercontent.com/labdz/UIpanel/master/images/password-protect.png") no-repeat scroll 6px 6px / 32px auto;
+border-radius: 50%;
+height: 35px;margin: 0;
+padding: 5px;
+width: 35px;}
+#icon-webalizerlog {
+background: #ebeff2 url("https://raw.githubusercontent.com/labdz/UIpanel/master/images/webalizerlog.png") no-repeat scroll 6px 6px / 32px auto;
+border-radius: 50%;
+height: 35px;margin: 0;
+padding: 5px;
+width: 35px;}
+#icon-sitereptile {
+background: #ebeff2 url("https://raw.githubusercontent.com/labdz/UIpanel/master/images/sitereptile.png") no-repeat scroll 6px 6px / 32px auto;
+border-radius: 50%;
+height: 35px;margin: 0;
+padding: 5px;
+width: 35px;}
+#icon-cloudflare {
+background: #ebeff2 url("https://raw.githubusercontent.com/labdz/UIpanel/master/images/cloudflare.png") no-repeat scroll 6px 6px / 32px auto;
+border-radius: 50%;
+height: 35px;margin: 0;
+padding: 5px;
+width: 35px;}
+#icon-supnewticket {
+background: #ebeff2 url("https://raw.githubusercontent.com/labdz/UIpanel/master/images/supnewticket.png") no-repeat scroll 6px 6px / 32px auto;
+border-radius: 50%;
+height: 35px;margin: 0;
+padding: 5px;
+width: 35px;}
+#icon-suplistopenticket {
+background: #ebeff2 url("https://raw.githubusercontent.com/labdz/UIpanel/master/images/suplistopenticket.png") no-repeat scroll 6px 6px / 32px auto;
+border-radius: 50%;
+height: 35px;margin: 0;
+padding: 5px;
+width: 35px;}
+#icon-suplistclosedticket {
+background: #ebeff2 url("https://raw.githubusercontent.com/labdz/UIpanel/master/images/suplistclosedticket.png") no-repeat scroll 6px 6px / 32px auto;
+border-radius: 50%;
+height: 35px;margin: 0;
+padding: 5px;
+width: 35px;}
