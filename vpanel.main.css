@@ -1094,7 +1094,7 @@ input:focus#txtQuickFind {
 	}
 
 
-.content {
+.content, .body-content, table {
 	background: #4c4c4c !important;
 	color: #fff !important;
 }
