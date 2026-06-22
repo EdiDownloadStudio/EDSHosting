@@ -1094,37 +1094,40 @@ input:focus#txtQuickFind {
 	}
 
 
-/* Main containers */
+/* Remove ALL backgrounds everywhere */
 .content,
-.body-content {
-    background: #4c4c4c !important;
-    color: #fff !important;
-}
-
-/* All tables */
+.body-content,
 table,
-.table {
-    background: #4c4c4c !important;
+.table,
+table *,
+.table * {
+    background: transparent !important;
+    background-color: transparent !important;
     color: #fff !important;
-    border-color: #666 !important;
 }
 
-/* Table cells */
+/* Force white borders on all table elements */
+table,
+.table,
 table td,
 table th,
 .table td,
 .table th {
-    background: #4c4c4c !important;
-    color: #fff !important;
-    border-color: #666 !important;
+    border: 1px solid #fff !important;
+    border-collapse: collapse !important;
 }
 
-/* Force nested elements */
-.content *,
-.body-content *,
-.table *,
-table * {
+/* Kill inline background attributes */
+td[style],
+th[style],
+tr[style],
+table[style] {
     background: transparent !important;
+    background-color: transparent !important;
     color: #fff !important;
 }
 
+/* Optional: remove body watermark */
+body {
+    background-image: none !important;
+}
