@@ -1095,18 +1095,33 @@ input:focus#txtQuickFind {
 
 
 /* Remove ALL backgrounds everywhere */
+#content,
+#body-content,
 .content,
 .body-content,
 table,
 .table,
 table *,
-.table * {
+.table *,
+tr,
+td,
+th {
     background: transparent !important;
     background-color: transparent !important;
     color: #fff !important;
 }
 
-/* Force white borders on all table elements */
+/* Override inline background attributes */
+td[style],
+th[style],
+tr[style],
+table[style] {
+    background: transparent !important;
+    background-color: transparent !important;
+    color: #fff !important;
+}
+
+/* Force clean white borders */
 table,
 .table,
 table td,
@@ -1117,17 +1132,7 @@ table th,
     border-collapse: collapse !important;
 }
 
-/* Kill inline background attributes */
-td[style],
-th[style],
-tr[style],
-table[style] {
-    background: transparent !important;
-    background-color: transparent !important;
-    color: #fff !important;
-}
-
-/* Optional: remove body watermark */
+/* Remove the VistaPanel watermark background */
 body {
     background-image: none !important;
 }
