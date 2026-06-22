@@ -1094,11 +1094,37 @@ input:focus#txtQuickFind {
 	}
 
 
-.content *,
-.body-content *,
-table,
-.table,
-.table * {
+/* Main containers */
+.content,
+.body-content {
     background: #4c4c4c !important;
     color: #fff !important;
 }
+
+/* All tables */
+table,
+.table {
+    background: #4c4c4c !important;
+    color: #fff !important;
+    border-color: #666 !important;
+}
+
+/* Table cells */
+table td,
+table th,
+.table td,
+.table th {
+    background: #4c4c4c !important;
+    color: #fff !important;
+    border-color: #666 !important;
+}
+
+/* Force nested elements */
+.content *,
+.body-content *,
+.table *,
+table * {
+    background: transparent !important;
+    color: #fff !important;
+}
+
