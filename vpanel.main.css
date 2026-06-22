@@ -1094,45 +1094,28 @@ input:focus#txtQuickFind {
 	}
 
 
-/* Remove ALL backgrounds everywhere */
-#content,
-#body-content,
-.content,
-.body-content,
-table,
-.table,
-table *,
-.table *,
-tr,
-td,
-th {
+/* 1. Nuke ALL backgrounds globally inside the panel */
+#content, #body-content,
+.content, .body-content,
+table, .table,
+table *, .table *,
+tr, td, th {
     background: transparent !important;
     background-color: transparent !important;
     color: #fff !important;
 }
 
-/* Override inline background attributes */
-td[style],
-th[style],
-tr[style],
-table[style] {
+/* 2. Override ALL inline styles (the real problem) */
+*[style] {
     background: transparent !important;
     background-color: transparent !important;
     color: #fff !important;
 }
 
-/* Force clean white borders */
-table,
-.table,
-table td,
-table th,
-.table td,
-.table th {
+/* 3. Force clean white borders everywhere */
+table, .table,
+td, th {
     border: 1px solid #fff !important;
     border-collapse: collapse !important;
 }
 
-/* Remove the VistaPanel watermark background */
-body {
-    background-image: none !important;
-}
