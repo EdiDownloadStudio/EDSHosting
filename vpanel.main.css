@@ -1092,3 +1092,9 @@ input:focus#txtQuickFind {
     	max-width: 190px;
     	display: inline-block;
 	}
+
+
+.content {
+	background: #4c4c4c !important;
+	color: #fff !important;
+}
