@@ -1,10 +1,4 @@
 @charset "utf-8";
-/*
-  VPanel / ByetHost remake
-  Cleaned, modernized, and scoped to keep the panel usable.
-  Focus: visible redesign, not tiny tweaks.
-*/
-
 :root {
   --bg-0: #08111c;
   --bg-1: #0d1624;
@@ -1244,4 +1238,8 @@ dropdown-menu > li > a,
 .content [style] *,
 .body-content [style] * {
   color: #fff !important;
+}
+
+.navbar-brand-logo {
+  content: url("https://edshosting.is-best.net/wp-content/uploads/2026/06/EDSHosting_NEW_transparent.png");
 }
