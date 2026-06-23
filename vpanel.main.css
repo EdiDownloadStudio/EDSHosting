@@ -793,7 +793,7 @@ footer .navbar-nav > li > a:hover {
 }
 
 #txtCpanelVersion:before {
-  content: "VPanel / ByetHost theme remake / v.";
+  content: "© EDSHost. All rights reserved.";
   font-size: 11px;
 }
 
